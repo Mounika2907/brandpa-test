@@ -1,0 +1,80 @@
+{
+  "name": "newgold-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^3.22.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.12.2",
+    "@mobiscroll/react-lite": "^4.10.9",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "algoliasearch": "^4.10.2",
+    "aload": "^1.2.3",
+    "aria-tablist": "^1.2.2",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.6.0",
+    "material-ui-slider": "^3.0.8",
+    "mdb-react-ui-kit": "^1.0.0-beta6",
+    "mdbreact": "^5.0.2",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^3.3.4",
+    "react-alice-carousel": "^2.5.1",
+    "react-animated-typing": "^2.1.6",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-buttons": "^1.0.0",
+    "react-bootstrap-carousel": "^4.1.1",
+    "react-bootstrap-navbar": "^1.1.0",
+    "react-countup": "^4.4.0",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-image-grid-animator": "^1.3.0",
+    "react-input-range": "^1.3.0",
+    "react-instantsearch-dom": "^6.11.2",
+    "react-modal-video": "^1.2.6",
+    "react-multi-carousel": "^2.6.3",
+    "react-range": "^1.8.9",
+    "react-responsive-carousel": "^3.2.18",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.3",
+    "react-slideshow-image": "^3.4.7",
+    "react-visibility-sensor": "^5.1.1",
+    "sass": "^1.32.13",
+    "semantic-ui-react": "^2.0.3",
+    "styled-components": "^5.3.0",
+    "ua-parser-js": "^0.7.28",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": " set PORT=8181 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+﻿.card {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+.card .img-top-elements {
+    display: none;
+    position: absolute;
+   
+    z-index: 99;
+}
+.card:hover .img-top-elements {
+    display: inline;
+}
